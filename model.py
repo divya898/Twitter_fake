@@ -33,8 +33,8 @@ def Create_Input_Window():
 	
 	def retrieve_input():
 		if e1 :
-		 inputframe =pd.DataFrame(
-		 OrderedDict(
+			inputframe =pd.DataFrame(
+		OrderedDict(
 		{
 		'UserID':[e1.get()],
 		'No Of Abuse Report':[e2.get()],
@@ -63,8 +63,8 @@ def Create_Input_Window():
 		if  filename :
 			print("here")
 			if e1 :
-			 inputframe =pd.DataFrame(
-			 OrderedDict(
+				inputframe =pd.DataFrame(
+			OrderedDict(
 			{
 			'UserID':[e1.get()],
 			'No Of Abuse Report':[e2.get()],
@@ -99,8 +99,8 @@ def Create_Input_Window():
 			print("here")
 			
 			if e1 :
-			 inputframe =pd.DataFrame(
-			 OrderedDict(
+				inputframe =pd.DataFrame(
+			OrderedDict(
 			{
 			'UserID':[e1.get()],
 			'No Of Abuse Report':[e2.get()],
@@ -135,8 +135,8 @@ def Create_Input_Window():
 			print("here")
 			
 			if e1 :
-			 inputframe =pd.DataFrame(
-			 OrderedDict(
+				inputframe =pd.DataFrame(
+			OrderedDict(
 			{
 			'UserID':[e1.get()],
 			'No Of Abuse Report':[e2.get()],
@@ -166,7 +166,6 @@ def Create_Input_Window():
 			show_predicted_label(predictions_model3[0])		
 			
 	
-		 
 	tk.Label(input_window, text="Enter UserID").grid(row=0)
 	tk.Label(input_window, text="Enter No Of Abuse Report").grid(row=3)
 	tk.Label(input_window, text="Enter No Of Rejected Friend Requests").grid(row=5)
